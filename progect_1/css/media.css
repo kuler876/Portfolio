@@ -1,0 +1,92 @@
+@media (max-width: 1140px) {
+    .card {
+        width: calc(50% - 15px);
+    }
+
+    .footer {
+        padding: 40px 0 60px 0;
+    }
+
+    .footer-row {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-col {
+        margin-bottom: 50px;
+    }
+
+    .footer-col:first-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 760px) {
+    .header-title {
+        font-size: 32px;
+    }
+
+    .header-subtitle {
+        font-size: 12px;
+    }
+
+    .portfolio {
+        padding: 60px 0;
+    }
+
+    .portfolio-header {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-card-wrapper {
+        justify-content: center;
+    }
+
+    .card {
+        max-width: 530px;
+        width: 100%;
+    }
+
+    .card:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .card-link {
+        padding: 15px;
+    }
+
+    .card-img {
+        margin-bottom: 10px;
+    }
+
+    .card-titl {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .footer-copyright-name {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+    }
+
+    .footer-icons p {
+        font-size: 14px;
+    }
+
+    .footer-contact p {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+}
